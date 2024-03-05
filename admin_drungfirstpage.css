@@ -1,0 +1,57 @@
+table{
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    height: 100px;
+    border-spacing:0 ;
+    background-color:white;
+    text-align: center;
+}
+table,tr,td,th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px 25px;
+}
+th{
+    background: gainsboro;
+}
+td button{
+    display: inline-block;
+    padding: 10px; 
+    border-radius: 8px;
+    margin: 0px 5px;
+}
+.container{
+    padding-top: 180px;
+    text-align: center;
+
+}
+.button-add {
+    justify-content: center;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #0EF477; 
+    border: 3px solid #8dffc2;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+.button-edit{
+    background-color: #F8D314;
+    border: 3px solid #FFE352;
+}
+.button-delete{
+    background-color:#F64C57;
+    border: 2px solid #f77f87;
+}
+#search-box{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+
